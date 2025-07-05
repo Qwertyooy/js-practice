@@ -10,7 +10,6 @@
 }
 
 .hero-container{
-background-color: aliceblue;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -18,6 +17,7 @@ justify-content: center;
 
 .countdown-container  h1{
    font-size: 44px;
+   color: white;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,6 +31,7 @@ justify-content: center;
     justify-content: center;
     align-items: center;
     padding: 12px;
+    color: white;
 }
 
 .countdown-item {
@@ -58,11 +59,24 @@ justify-content: center;
 .btn-hero a {
     text-decoration: none;
     padding: 0 30px;
-    color: black;
+    color: white;
     font-size: 18px;
     font-weight: 500;
     border: 0;
     transition: 0.3s ease-in-out ;
 }
+
+.btn-hero a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+   background: rgba(0, 229, 255, 0.175); 
+  backdrop-filter: blur(10px);        
+  -webkit-backdrop-filter: blur(10px);  
+  border-radius: 16px;
+  color: white;
+}
+
 
 
