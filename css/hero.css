@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     min-height: 579px;
-    background-image: url(./img/bg-img.png);
+    background-image: url("../img/bg-img.png");
     background-size: cover;
     background-position: center;
     
